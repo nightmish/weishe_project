@@ -1,17 +1,52 @@
 ul {
 list-style-type: none;
 }
+a {
+text-decoration: none;
+}
 .mainnav {
     display: flex;
     justify-content: space-between;
+    margin:0;
+    padding: 0;
+    background-color: rgb(57, 92, 57);
+    width:700px;
 }
 .headerx {
+    display: flex;
+    justify-content: center;
     width: 1080px;
     margin:0px auto;
+    
 }
 .menubutton {
+    position: relative;
     padding:10px;
     width:100px;
-    border: 1px black solid;
+    background-color: rgb(129, 253, 129);
+    outline: 1px black solid;
     text-align: center;
+    
 }
+.submenu{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style-type: none;
+    display: none;
+    left:0;
+    top:100%;
+    width:100%;
+    background-color: rgb(182, 248, 182);
+    outline: 1px black solid; 
+    text-align: left;
+}
+.menubutton:hover .submenu {
+    display: block;
+}
+.menulink {
+    padding-left: 10px;
+}
+    

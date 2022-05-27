@@ -4,12 +4,16 @@ list-style-type: none;
 a {
 text-decoration: none;
 }
+body {
+    
+}
+/***Header Zone***/
 .mainnav {
     display: flex;
     justify-content: space-between;
     margin:0;
     padding: 0;
-    background-color: rgb(57, 92, 57);
+    
     width:700px;
 }
 .headerx {
@@ -17,6 +21,7 @@ text-decoration: none;
     justify-content: center;
     width: 1080px;
     margin:0px auto;
+    background-color: bisque;
     
 }
 .menubutton {
@@ -49,4 +54,20 @@ text-decoration: none;
 .menulink {
     padding-left: 10px;
 }
+/***Main Zone***/
+.container {
+   margin:0px auto;
+   padding:0;
+    width: 1080px;
+    padding-bottom: 20px;
+     background-color: rgb(182, 248, 182);
+
+}
+/***Footer***/
+.footerx {
+width: 1080px;
+margin:0px auto;
+background-color: rgb(129, 253, 129);
+}
+
     
